@@ -1,0 +1,10 @@
+defaults: &default
+host: localhost
+
+development:
+  database: myapp_development
+  <<: *default
+
+test:
+  database: myapp_test
+  <<: *default

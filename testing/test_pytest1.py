@@ -11,7 +11,7 @@ class DataLoad:
 
      def get_data(self,name):
           return self.data[name]
-
+ 
 #获取数据
 Data1=DataLoad("../data/data_add.yaml")
 Data2=DataLoad("../data/data_div.yaml")
